@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" media="screen">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diego Salcedo</title>
+</head>
+<body>
+  <h1 class="title">Diego Salcedo</h1>
+  <span class="tagline">App Developer</span>
+  <nav class="main-nav">
+    <ul>
+      <li><a class="active" id="about-page" data-page="about" href="#">Acerca de</a></li>
+      <li><a href="#" id="proyectos-page" data-page="proyectos">Proyectos</a></li>
+      <li><a href="#" id="blog-page" data-page="blog">Blog</a></li>
+      <li><a href="#" id="contact-page" data-page="contact">Contacto</a></li>
+    </ul>
+  </nav>
+  <section data-page-name="about" class="page default">
+    <img class="profile-img" src="img.jpg" alt="Diego Salcedo"/>
+
+    <div class="about-me">
+      <p>Amante, artístico y pasional lado derecho del cerebro conoce al analítico, intelectual y 
+        algorítmico lado izquierdo del cerebro para resolver tus problemas. El lado izquierdo tiene un gran conocimiento 
+        de variadas tecnologías relacionado con la creación de apps, inteligencia artificial y manejo de grandes volúmenes de datos. 
+        El lado derecho tiene una gran historia creando mockups, diseñando UX/UI y planteando requisitos. 
+        Dame una idea de una app o un mantenimiento de un sistema: usaré ambos lados de mi cerebro para darte una solución 
+        informática sostenible, bonita y creativa. </p>
+    </div>
+  </section>
+  
+  <section data-page-name="proyectos" class="page">
+  <h2 class="subtitle">With Java</h2>
+  <p><a href="https://github.com/Diegitsen/Clerk" target="_blank">Clerk</a></p>
+  <p><a href="https://github.com/Diegitsen/Gliixx" target="_blank">Glix</a></p>
+  <p><a href="https://github.com/Diegitsen/DespertavozApp" target="_blank">DespertaVoz</a></p>
+  <p><a href="https://github.com/Diegitsen/NutriCare" target="_blank">NutriCare</a></p>
+  <p><a href="https://github.com/Diegitsen/CD-Maestro" target="_blank">Capacitación Destino</a></p>
+  <p><a href="https://github.com/Diegitsen/retos" target="_blank">Retos</a></p>
+
+  <h2 class="subtitle">With Python</h2>
+  <p><a href="https://github.com/Diegitsen/Clerk" target="_blank">Predictor de vuelos retrasados usando IA</a></p>
+  
+  <h2 class="subtitle">With Kotlin</h2>
+  <p><a href="https://github.com/Diegitsen/Tripper" target="_blank">Tripper</a></p>
+  <p><a href="https://github.com/Diegitsen/CoolMusicPlayer" target="_blank">Cool Music Player</a></p>
+  <p><a href="https://github.com/Diegitsen/Objective" target="_blank">Objective</a></p>
+
+  <h2 class="subtitle">With Flutter</h2>
+  <p><a href="https://github.com/Diegitsen/retos" target="_blank">Retos</a></p>
+</section>
+
+<section data-page-name="blog" class="page">
+  <h2 class="subtitle">Bienvenido al Blog</h2>
+
+  
+
+<div class="post-body">
+  <p class="post-lede">Diferencias entre Cloud Firestore y Realtime Database</p>
+
+  <p>Antes que nada, vamos a dar un breve concepto acerca de estas dos bases de datos NoSQL que ofrece Firebase. Primero, Cloud Firestore
+    es la base de datos más reciente de Firebase para el desarrollo de apps para dispositivos móviles. Aprovecha lo mejor de Realtime Database con un modelo de datos nuevo y más intuitivo. 
+    Con respecto a Realtime Database, es la base de datos original de Firebase. Es una solución eficiente de baja latencia para las apps para dispositivos móviles que necesitan estados sincronizados entre los clientes en tiempo real.
+  </p>
+
+  <p>Google recomienda usar Cloud Firestore a la mayoría de los desarrolladores que quieren comenzar proyectos nuevos. Esto debido a que
+    Cloud Firestore ofrece más funciones, rendimiento y escalabilidad en una infraestructura diseñada para admitir funciones más 
+    potentes en las próximas actualizaciones. Habrá nuevos tipos de consultas, reglas de seguridad más sólidas y mejoras en el rendimiento
+     entre las funciones avanzadas planificadas para Cloud Firestore.</p>
+
+  <p>Puedes usar ambas bases de datos dentro del mismo proyecto o la misma app de Firebase. Ambas bases de datos NoSQL pueden almacenar los mismos tipos de datos y las bibliotecas cliente funcionan de manera similar. Ten en cuenta las diferencias 
+    descritas anteriormente si decides usar ambas bases de datos en la app.</p>
+
+</div>
+
+</section>
+
+<section data-page-name="contact" class="page">
+  <p>Twitter: <a href="https://twitter.com/diegitsen">@diegitsen</a></p>
+  <p>Instagram: <a href="https://www.instagram.com/diegitsen">@diegitsen</a></p>
+  <p>GitHub: <a href="https://www.github.com/diegitsen">@diegitsen</a></p>
+
+
+  
+<form id="form" class="topBefore">
+		
+  <input id="name" type="text" placeholder="NAME">
+  <input id="email" type="text" placeholder="E-MAIL">
+  <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+<input id="submit" type="submit" value="GO!">
+
+</form>
+
+</section>
+  
+<!-- Loading -->
+  <div class="loading">
+    <h1 class="loading-title">Cargando</h1>
+    <div class="loading-progress"></div>
+  </div>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
